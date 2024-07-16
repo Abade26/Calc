@@ -14,11 +14,11 @@ body{
 #calc{
     width: 400px;
     padding: 0.5em;
-    background-color: yellow;
+    background-color: goldenrod;
     color: black;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px black;
+    box-shadow: 1px 1px silver;
     border-radius: 20px;
 }
 #calc h3{
@@ -60,7 +60,7 @@ body{
 }
 #buttons-contaioner button:hover{
     background-color: red;
-    border: blue;
+    border: black;
 }
 #buttons-contaioner #equal-btn{
     grid-column: span 2;
